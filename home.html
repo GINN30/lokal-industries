@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap with Node.js</title>
+    <!-- include Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- external self css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-custom text-custom">
+    <nav class="navbar navbar-expand-lg p-4 px-4">
+        <div class="container">
+            <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item px-md-4">
+                        <a class="nav-link text-center active" href="home.html" id="home">Home</a>
+                    </li>
+                    <li class="nav-item px-md-4">
+                        <a class="nav-link text-center" href="about.html" id="about">About</a>
+                    </li>
+                    <li class="nav-item px-md-4">
+                        <a class="nav-link text-center" href="catalog.html" id="catalog">Catalog</a>
+                    </li>
+                    <li class="nav-item px-md-4">
+                        <a class="nav-link text-center" href="customize.html" id="customize">Customize</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand px-md-4 justify-content-center" href="home.html">
+                <img src="asset/logo lokal text putih.png" alt="Logo" style="width: 6.5vh;">
+            </a>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container mt-md-5">
+            <div class="row">
+                <div class="col-md-6 px-md-5">
+                    <img src="asset/firdaus-roslan-hLCHn4Somyk-unsplash.jpg" class="img-fluid rounded-circle"
+                        alt="Your Image">
+                </div>
+                <div class="col-md-6 mt-md-5">
+                    <h1 class="display-4 justify-content-start">Everything You Need
+                        About <span class="text-danger">“Clothes”</span></h1>
+                    <p class="lead px-5 m-2">Di Lokal aja, Kami siap dengan semua kebutuhan anda!</p>
+                    <div class="d-grid align-items-center justify-content-center mt-md-5">
+                        <button class="btn btn-danger btn-outline-light btn-lg">Cek Produk Kami</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="asset/Rectangle 1.png" class="position-absolute top-0 start-0 w-25" style="z-index: -1;">
+    <img src="asset/Ellipse 2.png" class="position-absolute top-0 end-0" style="z-index: -1;">
+    <img src="asset/Polygon 1.png" class="position-absolute bottom-0 end-0" style="z-index: -1;">
+
+    <!-- include jQuery and Popper.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <!-- include Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- include your custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>

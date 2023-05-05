@@ -1,0 +1,70 @@
+.bg-custom {
+    background-color: #141414;
+    /* dark color */
+    /* color: #F92D45; */
+}
+
+.text-custom {
+    color: #fff;
+    /* light color */
+}
+
+#home {
+    border-radius: 5px;
+    color: #fff;
+}
+
+#home:hover {
+    border-radius: 5px;
+    border-bottom: #fff solid 3px;
+    color: #141414;
+}
+
+#about {
+    border-radius: 5px;
+    color: #fff;
+}
+
+#about:hover {
+    border-radius: 5px;
+    border-bottom: #fff solid 3px;
+}
+
+#catalog {
+    border-radius: 5px;
+    color: #fff;
+}
+
+#catalog:hover {
+    border-radius: 5px;
+    border-bottom: #fff solid 3px;
+}
+
+#customize {
+    border-radius: 5px;
+    color: #fff;
+}
+
+#customize:hover {
+    border-radius: 5px;
+    border-bottom: #fff solid 3px;
+}
+
+.active {
+    border-radius: 5px;
+    border-bottom: #141414 solid 3px;
+}
+
+.active:hover {
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.img-fluid.rounded-circle {
+    width: 400px;
+    height: 400px;
+}
